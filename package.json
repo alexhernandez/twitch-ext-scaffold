@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "twitch-ext-scaffold",
+  "author": "Alex Hernandez",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "twitch",
+    "extension",
+    "twitch extension",
+    "boilerplate"
+  ],
+  "scripts": {
+    "build": "./scripts/build.sh"
+  }
+}
