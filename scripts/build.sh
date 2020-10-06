@@ -23,5 +23,5 @@ if [[ -z ${DITTO} ]]; then
   exit 2
 fi
 
-# ZIP SCRIPT
+# BUILD SCRIPT
 ${DITTO} -c -k --sequesterRsrc ${ROOT_DIR}/${INPUT_DIR} ${ROOT_DIR}/${OUTPUT_DIR}/${ZIP_NAME}-${TIMESTAMP}.zip

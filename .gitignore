@@ -1,0 +1,5 @@
+# SYSTEM FILES
+.DS_Store
+
+# DEPENDENCIES
+node_modules
