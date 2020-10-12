@@ -13,7 +13,7 @@ ROOT_DIR=$(pwd)
 TIMESTAMP=$(date +'%F-%T')
 
 # CONFIG
-INPUT_DIR="src"
+INPUT_DIR="public"
 OUTPUT_DIR="builds"
 ZIP_NAME="ext-build"
 
