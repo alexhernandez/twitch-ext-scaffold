@@ -1,5 +1,9 @@
-# SYSTEM FILES
+# SYSTEM
 .DS_Store
 
 # DEPENDENCIES
 node_modules
+
+# PROJECT
+builds
+certs
