@@ -14,10 +14,9 @@ ROOT_DIR=$(pwd)
 # CONFIG
 OUTPUT_DIR="certs"
 FILE_NAME="server"
-
 COUNTRY="US"
-STATE="US"
-LOCATION="US"
+STATE="California"
+LOCATION="Los Angeles"
 HOST="localhost"
 
 # DEPENDANCY AVAILABILITY CHECK
