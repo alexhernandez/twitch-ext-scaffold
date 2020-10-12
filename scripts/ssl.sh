@@ -41,3 +41,7 @@ ${OPENSSL} req \
         <(printf '[SAN]\nsubjectAltName=DNS:'${HOST})) \
     -sha256 \
     -days 3650
+
+#  ADD TO MAC KEYCHAIN
+echo "Installing certificate into your local system Keychain..."
+sudo security add-trusted-cert -d -p ssl -r trustRoot -k "/Library/Keychains/System.keychain" "${ROOT_DIR}/${OUTPUT_DIR}/${FILE_NAME}.crt"
